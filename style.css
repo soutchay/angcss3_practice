@@ -1,0 +1,64 @@
+div {
+	height: 100em;
+	width: 100em;
+	background: black;
+	position: relative;
+}
+
+.all {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background-color: orange;
+	display: inline-block;
+	-webkit-filter: blur(5px);
+	-moz-filter: blur(5px);
+	-o-filter: blur(5px);
+	-ms-filter: blur(5px);
+	filter: blur(5px);	
+	transform: rotate(0deg);
+    -webkit-transition: all 2s ease-out;
+}
+
+.viewing {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	background-color: orange;
+	display: inline-block;
+	filter: blur(0px);
+	-webkit-filter: blur(0px);
+	transform: rotate(40deg);
+    -webkit-transition: all 2s ease-out;
+	/*animation: myfirst 2s;*/
+	/*-webkit-animation: myfirst 2s;*/
+}
+
+/*@keyframes myfirst {
+	from {transform: rotate(40deg);}
+	to {transform: rotate(0deg);}
+}
+@-webkit-keyframes myfirst {
+    from {transform: rotate(40deg)}
+    to {transform: rotate(0deg);}
+}*/
+
+.dial {
+	/*-webkit-transform: rotate(25deg)*/
+}
+
+.dial2 {
+	-webkit-transform: rotate(40deg);
+}
+
+.dial3 {
+	-webkit-transform: rotate(60deg);
+}
+
+.dial4 {
+	-webkit-transform: rotate(80deg);
+}
+
+.dial5 {
+	-webkit-transform: rotate(90deg)
+}
